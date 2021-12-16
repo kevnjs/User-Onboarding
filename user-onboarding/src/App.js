@@ -68,6 +68,7 @@ function App() {
     setForm(initialForm);
   }
 
+
   return (
     <div className="App">
       <Form 
@@ -79,7 +80,7 @@ function App() {
       />
       {
         users.map( (user, index) => (
-          <Users key={index} user={user}/>
+          <Users key={index} user={user} />
         ))
       }
     </div>

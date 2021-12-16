@@ -20,10 +20,15 @@ label {
 
 .errors {
     color: red;
+    display: inline-block;
 }
 
 .users {
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    padding: 2%;
     margin: 2% auto;
     border: 1px solid blue;
 }

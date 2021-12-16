@@ -2,7 +2,7 @@ import React from 'react';
 import './Form.css';
 
 export default function Form(props){
-    const { form, change, submit, disabled, errors} = props;
+    const { form, change, submit, disabled, errors, } = props;
 
     const onChange = evt => {
         const { name, value, checked, type } = evt.target
@@ -14,6 +14,7 @@ export default function Form(props){
         evt.preventDefault()
         submit()
     }
+
     return (
         <>
         <div className="form-container">
@@ -50,7 +51,7 @@ export default function Form(props){
                 onChange={onChange}
                 />
 
-                <button disabled={disabled}>Submit</button>
+                <button id="submitBtn" disabled={disabled}>Submit</button>
             </form>
         </div>
         <div className="errors">
