@@ -1,0 +1,34 @@
+.form-container {
+    width: 30%;
+    margin: 2% auto;
+    padding: 2%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+
+input {
+width: 95%;
+justify-content: center;
+}
+
+label {
+    display: flex;
+    margin: 2% 0;
+}
+
+.errors {
+    color: red;
+    display: inline-block;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    padding: 2%;
+    margin: 2% auto;
+    border: 1px solid blue;
+}
